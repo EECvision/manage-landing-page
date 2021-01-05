@@ -22,10 +22,10 @@ const Header =({toggleNavbar, clickToggleNavbar })=>{
                 :
                 <img onClick={()=>handleClick()} className="md:hidden cursor-pointer" src={iconHamburger} alt="icon"/>
             }
-            <div className="hidden md:flex text-black text-sm border border-black">
+            <div className="hidden md:flex text-black text-sm">
                 {
                     navLinks.map((navLink,idx)=>(
-                        <span key={idx} className="border px-4 py-2 border-red-500">{navLink}</span>
+                        <span key={idx} className="px-4 py-2">{navLink}</span>
                     ))
                 }
             </div>
