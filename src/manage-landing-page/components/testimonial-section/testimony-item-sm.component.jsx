@@ -14,12 +14,12 @@ const TestimonyItemSm =({id, name, quote, imageUrl, onClick})=>{
 
     return (
         <div className="flex flex-col items-center ">
-            <div className="w-full max-w-sm flex flex-col items-center text-center px-10 mb-24 border border-red-700">
+            <div className="w-full max-w-sm flex flex-col items-center text-center px-10 mb-24">
             <img className="w-20 h-20 mb-6" src={avatars[imageUrl]} alt="avatar"/>
             <div className="w-full text-blue-900 text-lg font-bold mb-6">{name}</div>
             <div className="w-full text-blue-900 opacity-75">{quote}</div>
             </div>
-            <div className="w-24 flex justify-evenly border border-black">
+            <div className="w-24 flex justify-evenly">
                 <div onClick={()=>onClick(0)} className={`w-2 h-2 ${ 1 === id ? 'bg-red-500': 'border border-red-500' } rounded cursor-pointer`}></div>
                 <div onClick={()=>onClick(1)} className={`w-2 h-2 ${ 2 === id ? 'bg-red-500': 'border border-red-500' } rounded cursor-pointer`}></div>
                 <div onClick={()=>onClick(2)} className={`w-2 h-2 ${ 3 === id ? 'bg-red-500': 'border border-red-500' } rounded cursor-pointer`}></div>

@@ -13,7 +13,7 @@ const Header =({toggleNavbar, clickToggleNavbar })=>{
     }
 
     return (
-        <div className={`w-full flex items-center justify-between lg:justify-evenly border border-black px-6 lg:px-0 ${toggleNavbar ? 'py-12' : 'py-16'} lg:pb-24 `}>
+        <div className={`w-full flex items-center justify-between lg:justify-evenly px-6 lg:px-0 ${toggleNavbar ? 'py-12' : 'py-16'} lg:pb-24 `}>
             <Logo className=""/>
             {
                 toggleNavbar 

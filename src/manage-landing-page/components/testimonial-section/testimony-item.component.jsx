@@ -12,7 +12,7 @@ const avatars = {
 
 const TestimonyItem =({name, quote, imageUrl})=>{
     return (
-        <div style={{background: 'hsl(0, 0%, 98%)'}} className="w-1/3 flex flex-col items-center text-center px-2 border border-red-700">
+        <div style={{background: 'hsl(0, 0%, 98%)'}} className="w-1/3 flex flex-col items-center text-center px-2">
             <img className="w-20 h-20 transform -translate-y-1/2" src={avatars[imageUrl]} alt="avatar"/>
             <div className="w-full text-blue-900 text-lg font-bold mb-6">{name}</div>
             <div className="w-full max-w-md text-blue-900 opacity-75">{quote}</div>

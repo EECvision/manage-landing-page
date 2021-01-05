@@ -15,7 +15,7 @@ const TestimonyMenu =({width})=>{
     }
 
     return(
-        <div className="w-full flex flex-col items-center mb-48 border border-blue-500">
+        <div className="w-full flex flex-col items-center mb-48">
             <div className="text-blue-900 text-4xl font-bold mb-20">
                 What they’ve said
             </div>
