@@ -13,7 +13,7 @@ const Header =({toggleNavbar, clickToggleNavbar })=>{
     }
 
     return (
-        <div className={`w-full flex items-center justify-between lg:justify-evenly px-6 lg:px-0 ${toggleNavbar ? 'py-12' : 'py-16'} lg:pb-24 `}>
+        <div className={`w-full flex items-center justify-between px-4 lg:px-32 ${toggleNavbar ? 'py-12' : 'py-16'} lg:pb-24 `}>
             <Logo className=""/>
             {
                 toggleNavbar 
@@ -25,7 +25,7 @@ const Header =({toggleNavbar, clickToggleNavbar })=>{
             <div className="hidden md:flex text-black text-sm">
                 {
                     navLinks.map((navLink,idx)=>(
-                        <span key={idx} className="px-4 py-2">{navLink}</span>
+                        <span key={idx} className="cursor-pointer px-4 py-2 border-b-2 border-white hover:border-blue-800">{navLink}</span>
                     ))
                 }
             </div>

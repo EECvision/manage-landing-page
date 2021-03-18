@@ -15,7 +15,7 @@
 
 .inverted{
     background-color:white;
-    color: hsl(12, 88%, 59%);
+    background-color: hsl(12, 88%, 59%);
     border: 0.125rem solid white;
 }
 
@@ -25,7 +25,6 @@
 }
 
 .button:hover{
-    background-color: white;
-    color: hsl(12, 88%, 59%);
+    background-color: hsl(12, 88%, 49%);
 }
 

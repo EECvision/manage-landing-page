@@ -13,7 +13,7 @@ const Footer =()=>{
     return (
         <div className="relative w-full lg:pl-12 lg:pr-32 flex flex-col-reverse lg:flex-row items-center lg:items-start justify-start py-12" style={{background: 'hsl(233, 12%, 13%)',color: 'hsl(0, 0%, 98%)'}}>
             <div className="w-full lg:w-1/5 flex lg:flex-col flex-col-reverse items-center justify-between">
-                <Logo className="mb-12 stroke-current text-white"/>
+                <Logo className="mb-12"/>
                 <div className="w-full max-w-sm inline-flex justify-evenly mb-12">
                     {
                         socialMediaIcons.map((icon, idx) =>(
